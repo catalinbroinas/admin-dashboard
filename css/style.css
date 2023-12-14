@@ -174,7 +174,22 @@ ul li
     background-color: #E0E0E0;
     color: transparent;
 }
+
+.logo
+{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+}
 .sidebar-nav-item
 {
     font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
 }
