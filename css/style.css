@@ -1,6 +1,29 @@
+/* Default */
+body
+{
+    box-sizing: border-box;
+}
+.title,
+.sub-title,
+.text,
+ul
+{
+    margin: 0;
+}
+ul li
+{
+    list-style-type: none;
+}
+* 
+{
+    box-sizing: inherit;
+}
+
 /* Layout */
 .container-fluid
 {
+    width: 100vw;
+    min-height: 100vh;
     display: grid;
     grid-template-rows: repeat(2, auto);
     grid-template-columns: 1fr 4fr;
@@ -12,27 +35,29 @@
     display: grid;
     grid-area: header;
     grid-template-rows: repeat(2, auto);
+    padding: 1rem 4rem;
 }
 .sidebar
 {
     grid-area: sidebar;
+    padding: 1rem 2rem;
 }
 .container 
 {
     display: grid;
     grid-area: container;
     grid-template-columns: 3fr 1fr;
+    padding: 2rem 3rem 2rem 1.5rem;
+    gap: 1.5rem;
 }
 
 .search-bar
 {
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
 }
 .action-bar
 {
-    background-color: gray;
     display: flex;
     justify-content: space-between;
 }
@@ -41,4 +66,51 @@
 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem 2.5rem;
+}
+
+.card 
+{
+    padding: 2rem 1rem;
+}
+.announce,
+.trend
+{
+    padding: 2rem;
+}
+
+/* Spacing */
+.mb-1
+{
+    margin-bottom: 0.5rem;
+}
+.mb-2
+{
+    margin-bottom: 1rem;
+}
+.mb-3
+{
+    margin-bottom: 1.5rem;
+}
+.mb-4
+{
+    margin-bottom: 2rem;
+}
+.mb-5
+{
+    margin-bottom: 2.5rem;
+}
+
+.mr-4
+{
+    margin-right: 2rem;
+}
+.mr-5
+{
+    margin-right: 2.5rem;
+}
+
+.mx-2
+{
+    margin: 1rem 0;
 }
