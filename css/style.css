@@ -9,7 +9,9 @@
 }
 .header
 {
+    display: grid;
     grid-area: header;
+    grid-template-rows: repeat(2, auto);
 }
 .sidebar
 {
@@ -17,5 +19,7 @@
 }
 .container 
 {
+    display: grid;
     grid-area: container;
+    grid-template-columns: 3fr 1fr;
 }
