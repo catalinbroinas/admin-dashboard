@@ -22,6 +22,7 @@ ul li
 /* Layout */
 .container-fluid
 {
+    background-color: #ECEFF1;
     width: 100vw;
     min-height: 100vh;
     display: grid;
@@ -32,6 +33,8 @@ ul li
 }
 .header
 {
+    background-color: #FBFBFB;
+    color: #332D2D;
     display: grid;
     grid-area: header;
     grid-template-rows: repeat(2, auto);
@@ -41,9 +44,13 @@ ul li
 {
     grid-area: sidebar;
     padding: 1rem 2rem;
+    background-color: #54B4D3;
+    color: white;
 }
 .container 
 {
+    background-color: transparent;
+    color: #332D2D;
     display: grid;
     grid-area: container;
     grid-template-columns: 3fr 1fr;
@@ -72,11 +79,15 @@ ul li
 .card 
 {
     padding: 2rem 1rem;
+    background-color: #FBFBFB;
+    color: #332D2D;
 }
 .announce,
 .trend
 {
     padding: 2rem;
+    background-color: #FBFBFB;
+    color: #332D2D;
 }
 
 /* Spacing */
@@ -113,4 +124,19 @@ ul li
 .mx-2
 {
     margin: 1rem 0;
+}
+
+/* Typography */
+.title,
+.sub-title,
+.text
+{
+    color: inherit;
+}
+
+/* Components */
+.hr 
+{
+    background-color: #E0E0E0;
+    color: transparent;
 }
