@@ -1,8 +1,21 @@
 /* Layout */
 .container-fluid
 {
-    background-color: gray;
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
     grid-template-columns: 1fr 4fr;
+    grid-template-areas: "sidebar header"
+                        "sidebar container"
+}
+.header
+{
+    grid-area: header;
+}
+.sidebar
+{
+    grid-area: sidebar;
+}
+.container 
+{
+    grid-area: container;
 }
