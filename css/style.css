@@ -132,9 +132,9 @@ ul li
 {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    justify-content: space-around;
+    justify-content: start;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1.5rem;
 }
 
 /* Spacing */
