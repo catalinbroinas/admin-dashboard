@@ -120,6 +120,13 @@ ul li
     color: #332D2D;
 }
 
+.card-links
+{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+
 /* Spacing */
 .mb-1
 {
