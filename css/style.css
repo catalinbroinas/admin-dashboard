@@ -264,7 +264,7 @@ ul li
 {
     font-size: 2rem;
     padding: 0.2rem 1rem;
-    background-color: #607D8B;
+    background-color: #651FFF;
     color: white;
     border-radius: 0.75rem;
 }
@@ -280,6 +280,7 @@ ul li
     color: white;
     cursor: pointer;
     border: none;
+    font-family: "Roboto", Arial, sans-serif;
     font-size: 1.2rem;
     padding: 0.75rem 1.5rem;
     border-radius: 1.5rem;
