@@ -109,9 +109,20 @@ ul li
 
 .card 
 {
-    padding: 2rem 1rem;
+    padding: 2rem 1.5rem;
+    height: 100%;
     background-color: #FBFBFB;
     color: #332D2D;
+    display: flex;
+    flex-direction: column;
+    border-left: 0.5rem solid #651FFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    transition: box-shadow 0.3s ease;
+}
+.card:hover
+{
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 .announce,
 .trend
@@ -119,12 +130,15 @@ ul li
     padding: 2rem;
     background-color: #FBFBFB;
     color: #332D2D;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
 }
 
 .card-links
 {
     display: flex;
     justify-content: end;
+    margin-top: auto;
     gap: 1rem;
 }
 
@@ -213,6 +227,7 @@ ul li
 {
     font-weight: bold;
     font-family: "Roboto", Arial, Verdana, sans-serif;
+    cursor: pointer;
 }
 
 /* Components */
@@ -249,16 +264,20 @@ ul li
     border-radius: 1.2rem;
     padding: 0.5rem 1rem;
     font-size: 1.2rem;
+    transition: box-shadow 0.3s ease;
 }
 .search-input:focus
 {
     border: none;
     outline: none;
+    box-shadow: 0px 0px 8px rgba(33, 150, 243, 0.8);
 }
 .search-icon, 
-.notification-icon
+.notification-icon,
+.card-link
 {
     font-size: 1.5rem;
+    cursor: pointer;
 }
 .user-logo
 {
@@ -285,6 +304,7 @@ ul li
     padding: 0.75rem 1.5rem;
     border-radius: 1.5rem;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
 }
 .btn:hover
 {
