@@ -127,6 +127,15 @@ ul li
     gap: 1rem;
 }
 
+.trend-item
+{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 /* Spacing */
 .mb-1
 {
