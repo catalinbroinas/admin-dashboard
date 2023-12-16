@@ -85,6 +85,7 @@ ul li
     grid-template-columns: repeat(2, auto);
     justify-content: space-between;
     align-items: center;
+    gap: 1rem;
 }
 
 .search-bar-control
@@ -110,6 +111,12 @@ ul li
     grid-template-columns: repeat(2, auto);
     align-items: center;
     gap: 2rem;
+}
+.action-bar-buttons
+{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem 2rem;
 }
 
 .search-bar-control
