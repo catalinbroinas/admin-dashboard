@@ -352,3 +352,17 @@ ul li
         padding: 1.5rem 2rem 1.5rem 1.5rem;
     }
 }
+/* Small device */
+@media only screen and (max-width: 1151px)
+{
+    .container,
+    .search-bar,
+    .action-bar
+    {
+        grid-template-columns: 1fr;
+    }
+    .action-bar-text
+    {
+        justify-content: start;
+    }
+}
